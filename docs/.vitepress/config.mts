@@ -2,8 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "YQ-Message-Wall-Docs",
-  description: "@2024 软件实验室",
+  title: "一勺时光",
   themeConfig: {
     logo: '/logo.svg',
 
@@ -30,12 +29,11 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ZRMYDYCG/YQ-Message-Wall' }
+      { icon: 'github', link: 'https://github.com/ZRMYDYCG' }
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © @yq-yq-message-wall 2024'
+      message: 'Released under the MIT License.'
     }
   }
 })

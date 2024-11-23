@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "YQ-留言墙"
-  text: "欢迎大家来到留言墙"
-  tagline: "记录某一瞬间的共情"
+  name: "一勺时光"
+  text: "学习，记录，分享"
+  tagline: "记录我的成长"
   image: '/logo.svg'
   actions:
     - theme: brand
