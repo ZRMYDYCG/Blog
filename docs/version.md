@@ -62,3 +62,8 @@ version `1.0.3` publish `2024-11-26`
 `感触`
 
 代码一定要不断去迭代, 维护, 优化, 才能让它变得更好。
+
+version `1.0.4` publish `2024-11-27`
+
+1. 巩固 TypeScript
+2. 重构 YQ-Message-Wall 项目

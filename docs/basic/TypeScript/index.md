@@ -75,3 +75,69 @@ console.log(dir) // 输出: 0
 接口（interface）和类型别名（type）都可以用来描述对象或者函数类型
 
 而类型别名可以用于其它类型的定义: 基本类型、联合类型、元组类型
+
+```typescript
+interface StringProcessor {
+    (input: string): string
+}
+
+const toUpperCase: StringProcessor = (input) => {
+    return input.toUpperCase()
+}
+
+console.log(toUpperCase("hello")) // 输出: HELLO
+```
+
+```typescript
+type StringFormatter = (input: string, prefix: string) => string
+
+const formatString: StringFormatter = (input, prefix) => {
+    return `${prefix}${input}`
+};
+
+console.log(formatString("world", "Hello, ")) // 输出: Hello, world
+```
+
+```typescript
+interface User {
+    id: number
+    name: string
+    email: string
+}
+
+function getUserInfo(user: User): void {
+    console.log(`User ID: ${user.id}, Name: ${user.name}, Email: ${user.email}`)
+}
+
+// 使用接口
+const user: User = {
+    id: 1,
+    name: "张三",
+    email: "zhangsan@example.com"
+}
+
+getUserInfo(user)
+
+type APIResponse =
+    | { status: 'success'; data: User[] }
+    | { status: 'error'; message: string }
+
+function handleResponse(response: APIResponse): void {
+    if (response.status === 'success') {
+        console.log('用户列表:', response.data)
+    } else {
+        console.error('错误信息:', response.message)
+    }
+}
+
+// 使用类型别名
+const response: APIResponse = {
+    status: 'success',
+    data: [
+        { id: 1, name: "张三", email: "zhangsan@example.com" },
+        { id: 2, name: "李四", email: "lisi@example.com" },
+    ],
+}
+
+handleResponse(response)
+```
