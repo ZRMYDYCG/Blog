@@ -13,8 +13,7 @@ version `1.0.0` publish `2024-11-23`
 
 `screenshot`
 
-![](./2024-11-22/night-a.jpg)
-
+无...
 
 version `1.0.1` publish `2024-11-24`
 
