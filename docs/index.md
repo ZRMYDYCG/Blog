@@ -21,12 +21,12 @@ features:
     icon:
       src: /Vue.svg
     details: 是一个渐进式 JavaScript 框架，专注于视图层的开发。
-    link: https://juejin.cn/post/7330227149177028617
+    link: 
     linkText: 查看详情
   - title: React 开发插件
     icon:
       src: /react.svg
     details: React 是一个用于构建用户界面的 JavaScript 库。
-    link: https://juejin.cn/post/7349936384512213027
+    link: 
     linkText: 查看详情
 ---
