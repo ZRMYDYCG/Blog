@@ -67,3 +67,8 @@ version `1.0.4` publish `2024-11-27`
 
 1. 巩固 TypeScript
 2. 重构 YQ-Message-Wall 项目
+
+version `1.0.5` publish `2024-11-28`
+
+1. 巩固 TypeScript
+2. 重构 YQ-Message-Wall 项目
